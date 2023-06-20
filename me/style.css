@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+body{
+   font-family: 'Roboto', sans-serif !important;
+   background: rgb(0, 0, 0) !important;
+   color: 
+   #f724a2
+    !important;
+
+
+}
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+  font-size: 20px;  
+}  
+
+.fa-bars{
+    font-size: 30px;
+    
+}
+.navbar-brand{
+    color: black;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+.navbar{
+    background: rgb(201, 201, 201);
+}
+.gameContainer{
+/* background: rgb(176, 176, 176); */
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.info{
+    color: #f72438;
+    font-size: 40px !important;
+}
+.contaier{
+display: grid;
+grid-template-rows: repeat(3, 10vw);
+grid-template-columns: repeat(3, 10vw);
+font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
+
+}
+
+.box{
+    border: 5px solid #befdb7;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box:hover{
+   
+    background-color: rgb(19, 19, 19);
+}
+.textred{
+    color: #f72438;
+}
+.textgreen{
+    color: #39f824;
+    
+}
+
+.fa-volume-high, .fa-volume-xmark{
+    color: rgb(146, 13, 255);
+    font-size: 30px;
+}
+
+
+
+.GameInfo{
+    padding: 0 60px;
+    font-family: 'Hubballi', cursive;
+    font-size: 35px;
+}
+
+.display{
+    width: 0;
+    
+    transition: width 1s ease-in-out ;
+}
+
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bd-0{
+    border-bottom: 0;
+}
+
+
+#reset{
+font-size: 20px;
+background: gray;
+color: white;
+width: 100px;
+border-radius: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .gameContainer{
+        /* background: rgb(176, 176, 176); */
+        display: block;
+      
+        margin-top: 50px;
+        }
+.contaier{
+    text-align: center;
+    margin-left: 18px;
+}
+
+.contaier{
+    display: grid;
+    grid-template-rows: repeat(3, 30vw);
+    grid-template-columns: repeat(3, 30vw);
+    font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
+    
+    }
+.boxtext{
+    font-size: 60px;
+}
+
+.GameInfo{
+    margin-top: 60px;
+}
+.tik{
+    font-size: 20px;
+    text-align: center;
+}
+
+.center{
+text-align: center;
+}
+
+
+    }
+
+
+    .center{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 60px;
+        color: #39f824;
+        }
+
+
+        .tik{
+            margin-top: 30px;
+            text-align: center;
+        }
